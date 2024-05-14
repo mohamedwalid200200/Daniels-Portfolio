@@ -1,0 +1,174 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+/* Navigation Bar */
+.navbar-nav .nav-link.active::before{
+    width: 0;
+}
+/* Home Section */
+#home .home-content h5{
+    font-size: 40px;
+}
+#home .home-content p{
+    font-size: 30px;
+}
+/* About Section */
+#about{
+    height:fit-content;
+}
+#about .right-side .inner{
+    justify-content: space-evenly;
+    height: 600px;
+}
+/* Services section */
+
+/* Portfolio Section */
+
+/* Carousel */
+#car .car-image{
+    width:25%;
+}
+#car p{
+    width:100%;
+}
+/* Mid Section */
+.mid-sec{
+    height: fit-content;
+}
+/* Blog Section */
+
+/* Contact Section */
+#contact .inner p{
+    text-align: center;
+}
+/* Footer */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+/* Navigation Bar */
+.navbar-nav .nav-link.active::before{
+    width: 0;
+}
+/* Home Section */
+#home .home-content h5{
+    font-size: 40px;
+}
+#home .home-content p{
+    font-size: 30px;
+}
+/* About Section */
+#about{
+    height:fit-content;
+}
+#about .right-side .inner{
+    justify-content: space-evenly;
+    height: 600px;
+}
+/* Services section */
+
+/* Portfolio Section */
+
+/* Carousel */
+#car .car-image{
+    width:25%;
+}
+#car p{
+    width:100%;
+}
+/* Mid Section */
+.mid-sec{
+    height: fit-content;
+}
+/* Blog Section */
+
+/* Contact Section */
+
+/* Footer */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+/* Navigation Bar */
+.navbar-nav .nav-link.active::before{
+    width: 70%;
+}
+/* Home Section */
+#home .home-content h5,#home .home-content p{
+    font-size: 50px;
+}
+
+/* About Section */
+
+/* Services section */
+
+/* Portfolio Section */
+
+/* Carousel */
+#car .car-image{
+    width:15%;
+}
+#car p{
+    width:100%;
+}
+/* Mid Section */
+
+/* Blog Section */
+
+/* Contact Section */
+
+/* Footer */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+/* Navigation Bar */
+
+/* Home Section */
+#home .home-content h5{
+    font-size: 50px;
+}
+#home .home-content p{
+    font-size: 60px;
+}
+/* About Section */
+
+/* Services section */
+
+/* Portfolio Section */
+
+/* Carousel */
+#car .car-image{
+    width:9%;
+}
+#car p{
+    width:75%;
+}
+/* Blog Section */
+
+/* Contact Section */
+
+/* Footer */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+/* Navigation Bar */
+
+/* Home Section */
+
+/* About Section */
+
+/* Services section */
+
+/* Portfolio Section */
+
+/* Carousel */
+
+/* Mid Section */
+
+/* Blog Section */
+
+/* Contact Section */
+
+/* Footer */
+}
